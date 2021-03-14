@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#oldMain{
+    width: 410px;
+    height: 285px;
+    background: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px dashed black;
+}
+#yungMain{
+    width: 340px;
+    height: 220px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px double black;
+}
+#time{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: blue;
+}
+#AnnualDate{
+    background: black;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+#inputColor{
+    position: absolute;
+    bottom: 2px;
+    left: 44%;
+}
