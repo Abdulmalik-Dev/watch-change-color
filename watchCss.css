@@ -2,34 +2,39 @@
     padding: 0px;
     margin: 0px;
 }
-#oldMain{
-    width: 410px;
+
+/* Style of outer main of page framework */
+#bigMain{
+    width: 400px;
     height: 285px;
     background: blue;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 50%; top: 50%;
     transform: translate(-50%,-50%);
     border: 5px dashed black;
 }
+
+/* Style of inner main */
 #yungMain{
     width: 340px;
     height: 220px;
     background: white;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 50%; top: 50%;
     transform: translate(-50%,-50%);
     border: 5px double black;
 }
+
+/* Style of time element */
 #time{
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 50%; top: 50%;
     transform: translate(-50%,-50%);
     font-size: 50px;
     color: blue;
 }
+
+/* Style of annual data element */
 #AnnualDate{
     background: black;
     color: white;
@@ -39,8 +44,24 @@
     text-align: center;
     font-size: 20px;
 }
+
+/* Input of change background color of page */
 #inputColor{
     position: absolute;
     bottom: 2px;
     left: 44%;
+}
+/* For mobile screen */
+@media only screen and (min-width:600px) and (max-width:780px){
+
+    /* For outer main in mobile screen */
+    #yungMain{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* For inner main in mobile screen */
+    #bigMain{
+        width: 260px;
+    }
 }
