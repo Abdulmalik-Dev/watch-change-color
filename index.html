@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>watch</title>
 
     <link rel="stylesheet" href="watchCss.css"/>
 </head>
-<body id="body">
-    <main id="oldMain">
+
+<body>
+    <!-- Main to put framework of watch -->
+    <main id="bigMain">
+
+        <!-- Main to put the watch -->
         <main id="yungMain">
+
+            <!-- To put the time in this element -->
             <article id="time"></article>
+
+            <!-- To put the annual date in this element -->
             <article id="AnnualDate"></article>
         </main>
+
+        <!-- Input to change background color of page -->
         <input type="color" id="inputColor" onchange="wallColor()"/>
     </main>
 
-
+    <!-- To bind Javascript file -->
     <script src="watchScript.js"></script>
 </body>
 </html>
